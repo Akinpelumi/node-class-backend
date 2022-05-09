@@ -29,7 +29,7 @@ app.listen(port, () => {
   console.log(`port ${port} is up and jumping well`);
 });
 
-app.use('/', indexRouter);
+app.use('/welcome', indexRouter);
 app.use('/users', usersRouter);
 
 // catch 404 and forward to error handler
